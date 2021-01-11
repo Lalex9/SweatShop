@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "~9.0.1",
     "@angular/router": "~9.0.1",
     "bootstrap": "4.1.1",
-    "bootswatch": "^4.4.1",
+    "bootswatch": "^4.5.3",
     "font-awesome": "^4.7.0",
     "ngx-bootstrap": "^5.5.0",
     "ngx-spinner": "^8.1.0",
@@ -29,7 +29,7 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "uuid": "^3.4.0",
-    "xng-breadcrumb": "^5.0.1",
+    "xng-breadcrumb": "^5.1.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
