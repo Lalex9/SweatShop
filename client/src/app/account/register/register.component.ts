@@ -44,7 +44,7 @@ export class RegisterComponent implements OnInit {
           if (!control.value) {
             return of(null);
           }
-          return this.accountService.checkEmaiExist(control.value).pipe(
+          return this.accountService.checkEmailExists(control.value).pipe(
             map(res => {
                return res ? {emailExists: true} : null;
             })

@@ -18,14 +18,14 @@ export class BasketComponent implements OnInit {
   }
 
   removeBasketItem(item: IBasketItem) {
-    this.basketService.remveItemFromBasket(item);
+    this.basketService.removeItemFromBasket(item);
   }
 
   incrementItemQuantity(item: IBasketItem) {
     this.basketService.incrementItemQuantity(item);
   }
 
-  decrementItemQuanity(item: IBasketItem) {
+  decrementItemQuantity(item: IBasketItem) {
     this.basketService.decrementItemQuantity(item);
   }
 
